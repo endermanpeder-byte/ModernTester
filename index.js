@@ -1,3 +1,6 @@
+require('http').createServer((req, res) => {
+  res.end('Bot is running');
+}).listen(3000);
 const { Client, GatewayIntentBits } = require('discord.js');
 
 const client = new Client({
