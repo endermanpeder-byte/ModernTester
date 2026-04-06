@@ -2,8 +2,8 @@ const { REST, Routes } = require('discord.js');
 const fs = require('fs');
 
 const token = process.env.TOKEN; // Your bot token
-const clientId = 'YOUR_BOT_CLIENT_ID';
-const guildId = 'YOUR_TEST_GUILD_ID'; // Replace with your server ID
+const clientId = '1472721972449247285';
+const guildId = '1384933716736086026'; // Replace with your server ID
 
 const commands = [];
 
