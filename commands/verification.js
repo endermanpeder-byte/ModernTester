@@ -4,7 +4,7 @@ const {
     ModalBuilder, TextInputBuilder, TextInputStyle, InteractionType
 } = require('discord.js');
 
-const TOKEN = 'MTQ3MjcyMTk3MjQ0OTI0NzI4NQ.GF0VMt.JLuF2Jiq7L-ztv5sYTojQMjgnXAovC3az9eOT0';
+const TOKEN = process.env.DISCORD_TOKEN;
 const CLIENT_ID = '1472721972449247285';
 const GUILD_ID = '1379128107428085855';
 const VERIFIED_ROLE_ID = '1379896969333440694';
